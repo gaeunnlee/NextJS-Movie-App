@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
@@ -19,6 +18,5 @@
   "devDependencies": {
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5"
-  },
-  "homepage": "https://gaeunnlee.github.io/NextJS-Movie-App"
+  }
 }
