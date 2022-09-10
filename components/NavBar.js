@@ -13,7 +13,14 @@ export default function NavBar() {
             </Link>
             <style jsx>{`
                 .active {
-                    color: red
+                    color: #4798fc
+                }
+                nav {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 50px;
+                    gap: 10px;
                 }
             `}</style>
         </nav>
