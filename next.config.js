@@ -9,6 +9,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
+  basePath: "/NextJS-Movie-App",
+  assetPrefix: "/NextJS-Movie-App",
   async redirects() {
     return [
       {
