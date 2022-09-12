@@ -5,7 +5,7 @@ export default function Home() {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
     (async() => {
-      const { results } = await(await fetch(`/api/movies`)).json();
+      const { results } = await(await fetch(`/NextJS-Movie-App/api/movies`)).json();
       setMovies(results);
       console.log(results);
     })()

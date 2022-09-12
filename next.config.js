@@ -14,8 +14,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/contact/:path",
-        destination: "/form",
+        source: "/NextJS-Movie-App/contact",
+        destination: "/NextJS-Movie-App/form",
         permanent: false
       }
     ]
@@ -23,7 +23,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/api/movies",
+        source: "/NextJS-Movie-App/api/movies",
         destination:`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`
       }
     ]
