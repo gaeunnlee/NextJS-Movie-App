@@ -38,4 +38,8 @@ next-env.d.ts
 # key
 gh-pages
 gh-pages.pub
+<<<<<<< HEAD
 .env
+=======
+.env
+>>>>>>> gh-pages
